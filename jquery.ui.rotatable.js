@@ -263,7 +263,7 @@
       }
 
       if (this.options.wheelRotate) {
-        this.element.bind('wheel', this.listeners.wheelRotate)
+        //this.element.bind('wheel', this.listeners.wheelRotate)
       }
 
       handle.draggable({ helper: 'clone', start: this._dragStart, handle: handle })
